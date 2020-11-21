@@ -22,10 +22,10 @@ dns:
   nameserver:
     - 114.114.114.114
     - 223.5.5.5
-	- https://dns.alidns.com/dns-query
+    - https://dns.alidns.com/dns-query
     - https://1.1.1.1/dns-query
     - tls://dns.adguard.com:853
-	- https://doh.rixcloud.dev/dns-query
+    - https://doh.rixcloud.dev/dns-query
   fallback:
     - tls://dns.google
 proxies:
